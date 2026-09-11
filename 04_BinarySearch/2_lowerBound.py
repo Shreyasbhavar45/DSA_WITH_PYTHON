@@ -23,7 +23,7 @@ def LowerBound(nums,target):
 
         else:
 
-            low = mid - 1
+            low = mid + 1
 
     return lowerBound
 
